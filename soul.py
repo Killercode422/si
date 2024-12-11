@@ -1,19 +1,3 @@
-import os
-import telebot
-import json
-import requests
-import logging
-import time
-from pymongo import MongoClient
-from datetime import datetime, timedelta
-import certifi
-import random
-from subprocess import Popen
-from threading import Thread
-import asyncio
-import aiohttp
-from telebot.types import ReplyKeyboardMarkup, KeyboardButton
-
 loop = asyncio.get_event_loop()
 
 TOKEN = '7929564230:AAGMvo-VtvRLDRjMgZ5H28PL9sjagqS2kIg'
